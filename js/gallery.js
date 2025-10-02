@@ -120,7 +120,7 @@ function onGalleryClick(event) {
 function onEscClose(evt) {
   if (evt.key === "Escape" && activeInstance) {
     activeInstance.close();
-    activeInstance = null;
+    activeInstance = null; 
   }
 }
 
